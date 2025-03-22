@@ -1,0 +1,7 @@
+%lang starknet
+
+
+let x: felt = 10;
+let y: felt = 20;
+
+let sum: felt = x + y;
