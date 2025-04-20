@@ -1,0 +1,7 @@
+fn main() {
+    PrintLabeledMeasurement (5, "H")
+}
+
+fn PrintLabeledMeasurement (Value:u128 ,UintLabel: ByteArray) {
+    println! ("The measurement is : {Value} {UintLabel}")
+}
