@@ -1,0 +1,5 @@
+fn main(
+    rec_snapshot: @rectangle
+) -> u64 {
+    *rec_snapshot.height *  * rec_snapshot.width
+}
