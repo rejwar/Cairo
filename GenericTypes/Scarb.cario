@@ -1,0 +1,7 @@
+// Default Implementation
+
+pub trait Summary {
+    fn summarize(self : @T) -> ByteArray{
+        "(Read more...)"
+    }
+}
