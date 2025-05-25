@@ -1,0 +1,7 @@
+// File: CompileTimeCalculation.cairo
+
+const ComputedValue: felt252 = consteval_int!(2 * 2 * 2);
+
+fn main() {
+    println!("Computed Value: {}", ComputedValue);
+}
